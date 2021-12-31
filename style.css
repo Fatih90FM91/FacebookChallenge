@@ -1,0 +1,210 @@
+body{
+    
+    margin: auto;
+}
+
+#header{
+    display:flex;
+    justify-content: space-between;
+    /* width: 80%; */
+    background-color: #395b9e
+     
+}
+
+#header > div > img{
+    width: 50%;
+    margin-left: 70%;
+    
+}
+
+.label-block{
+    display: block;
+    color: #F7F7F7;
+}
+
+.header-login{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    margin-top: 10px;
+    margin-right: 16%;
+}
+
+.header-email{
+    margin-right: 10px;
+}
+
+.header-login > div >button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #577BC1;
+    color: cornsilk;
+}
+
+#main{
+    display: flex;
+    background-color: #F7F7F7;
+    
+}
+
+.main-left{
+    width: 50%;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+
+.main-left > p{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    color: #577BC1;
+    width: 60%;
+}
+
+.main-right{
+    width: 30%;
+    margin-top: 20px;
+    margin-right: 12%;
+    
+  
+    
+}
+
+.main-right >h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #577BC1;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.main-right >p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -10px;
+}
+
+.main-right >hr{
+    margin-right: 30%;
+}
+
+.main-right > label{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-right >input{
+    border: 2px solid #eee;
+}
+
+
+
+.input-size {
+    margin-left: 30px;
+}
+
+.selext-sex{
+    margin-left: 72px;
+}
+
+.birtday-margin-left{
+    margin-left: 55px;
+}
+
+select{
+    border-radius: 5px;
+}
+
+label{
+    color:  #577BC1; 
+    font-weight: 600;
+}
+
+
+
+.lastpart-h5 ,.lastpart-p{
+    margin-left: 25%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   margin-right: 20%;
+}
+
+.lastpart-h5{
+    font-size: 20px;
+    color:  #577BC1; 
+}
+
+.some-texts , .lastpart-page{
+    color:  #577BC1; 
+}
+
+.main-right-lastpart > button{
+
+  
+        padding: 10px 30px;
+        background-color: #519259;
+        border-radius: 5px;
+        border: 1px solid black;
+        box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+        text-transform: uppercase;
+        font-size: 11px;
+        margin-left: 25%;
+        color: #fff;
+    
+}
+
+.main-right-lastpart-lastword{
+    width: 80%;
+    text-align: center;
+    margin-left: -20px;
+}
+
+
+#footer{
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+   
+}
+
+#footer > p{
+    color:  #577BC1; 
+    word-spacing :20px;
+
+}
+.footer-point{
+    background-color: #eee;
+}
+
+.footer-lastpart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-lastpart > p{
+    margin-left: 18%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -8px;
+}
+
+.footer-lastpart > p >a::before{
+content: "";
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.footer-end-part {
+    width: 50%;
+   
+}
+
+.footer-end-part >a{
+   padding:3px ; 
+   font-family:sans-serif;
+}
+
+.li{
+    display: inline-block;
+    padding: 10px;
+}
